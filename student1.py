@@ -1,8 +1,9 @@
 import sys
+        #check if correct number of arguments
 if len(sys.argy) !=3;
 print("Usage:python student.py <name><rollno>")
 sys_exit(1)
-
+#sys.argv[0] is always the program name and rollno
 script_name = sys.argy[0]
 name = sys.argv[1]
 rollno = sys.argv[2]
