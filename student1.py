@@ -5,7 +5,7 @@ if len(sys.argy) !=3:
      sys_exit(1)
 
 #sys.argv[0] is always the program name 
-script_name = sys.argy[0]
+script_name = sys.argv[0]
 name = sys.argv[1]
 rollno = sys.argv[2]
 
